@@ -37,7 +37,7 @@ button::-moz-focus-inner {border: 0;}
 /* Headers/Titles */
 /*-----------------------------------------------------------------------------------*/
 h1, h2, h3, h4, h5, h6, #footer .heading {
-    font-family: 'Segoe UI','Ubuntu',sans-serif;
+    font-family: 'Segoe UI','Ubuntu',sans-serif,'微软雅黑';
     font-weight: 300;
     margin-bottom: 30px;
 }
