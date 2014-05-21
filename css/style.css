@@ -56,7 +56,7 @@ a:hover {color: #F7941D; text-decoration: none;}
 /* Top Menu */
 /*-----------------------------------------------------------------------------------*/
 .header-top{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .header-nav{
     margin-bottom: 15px;
@@ -173,13 +173,13 @@ a:hover {color: #F7941D; text-decoration: none;}
     color: #7E7E7E;
     display: inline-block;
     font-size: 12px;
-    margin: 45px 0 0 15px;
+    margin: 35px 0 0 15px;
 }
 .phone {
     color: #7E7E7E;
     display: inline-block;
     font-size: 12px;
-    margin: 45px 0 0 15px;
+    margin: 35px 0 0 15px;
 }
 .top-search{
     margin-bottom: 0;
