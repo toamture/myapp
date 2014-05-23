@@ -50,7 +50,7 @@ $(document).ready(function(){
 	})();
     
     //Flickr Widget Footer
-    $('#footer .flickr').jflickrfeed({
+   /* $('#footer .flickr').jflickrfeed({
         limit: 8,
         qstrings: {
             id: '36621592@N06'
@@ -64,10 +64,10 @@ $(document).ready(function(){
             '</li>'
     }, function(data) {
         $("a[rel^='prettyPhoto']").prettyPhoto();
-    });
+    });*/
 
 	//Flickr Widget Sidebar
-    $('#sidebar .sidebar-flickr').jflickrfeed({
+   /* $('#sidebar .sidebar-flickr').jflickrfeed({
 		limit: 8,
 		qstrings: {
 			id: '36621592@N06'
@@ -81,7 +81,7 @@ $(document).ready(function(){
             '</li>'
 	}, function(data) {
 		$("a[rel^='prettyPhoto']").prettyPhoto();
-	});
+	});*/
 
 	//Portfolio
 	var $portfolioClone = $(".filtrable").clone();
