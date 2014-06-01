@@ -163,31 +163,35 @@
             <section id="page-sidebar" class="pull-left span8">
                 <h4>留下您的信息，我们会在24小时内与您取得联系。</h4>
                 <form name="contact" method="post" action="order.html" class="af-form" id="af-form" />
-                    <div class="af-outer af-required pull-left">
-                        <div class="af-inner">
-                            <label for="name" id="name_label">您的姓名或者称呼:</label>
-                            <input type="text" name="name" id="name" size="30" value="" class="text-input span4" />
-                            <label class="error" for="name" id="name_error">请输入您的姓名或者称呼</label>
+                	<div style=" width:100%; float:left;">
+                        <div class="af-outer af-required pull-left">
+                            <div class="af-inner">
+                                <label for="name" id="name_label">您的姓名或者称呼:</label>
+                                <input type="text" name="name" id="name" size="30" value="" class="text-input span4" />
+                                <label class="error" for="name" id="name_error">请输入您的姓名或者称呼</label>
+                            </div>
+                        </div>
+                        <div class="af-outer af-required pull-right">
+                            <div class="af-inner">
+                                <label for="phone" id="phone_label">您的联系电话:</label>
+                                <input type="text" name="phone" id="phone" size="30" value="" class="text-input span4" />
+                                <label class="error" for="email" id="phone_error">请输入您的电话</label>
+                            </div>
                         </div>
                     </div>
-                    <div class="af-outer af-required pull-right">
-                        <div class="af-inner">
-                            <label for="phone" id="phone_label">您的联系电话:</label>
-                            <input type="text" name="phone" id="phone" size="30" value="" class="text-input span4" />
-                            <label class="error" for="email" id="phone_error">请输入您的电话</label>
+                    <div style=" width:100%; float:left;">
+                        <div class="af-outer af-required pull-left">
+                            <div class="af-inner">
+                                <label for="template" id="template_label">您选择的模板:</label>
+                                <input type="text" name="template" id="template" size="30" value="template_100" class="text-input span4" readonly="readonly" style="background:#f1f1f1 !important;" />
+                            </div>
                         </div>
-                    </div>
-                    <div class="af-outer af-required pull-left">
-                        <div class="af-inner">
-                            <label for="template" id="template_label">您选择的模板:</label>
-                            <input type="text" name="template" id="template" size="30" value="template_100" class="text-input span4" readonly="readonly" style="background:#f1f1f1 !important;" />
-                        </div>
-                    </div>
-                    <div class="af-outer af-required pull-right">
-                        <div class="af-inner">
-                            <label for="domain" id="domain_label">您期望的域名:</label>
-                            <input type="text" name="domain" id="domain" size="30" value="" class="text-input span4" />
-                            <label class="error" for="domain" id="domain_error">请输入您期望的域名</label>
+                        <div class="af-outer af-required pull-right">
+                            <div class="af-inner">
+                                <label for="domain" id="domain_label">您期望的域名:</label>
+                                <input type="text" name="domain" id="domain" size="30" value="" class="text-input span4" />
+                                <label class="error" for="domain" id="domain_error">请输入您期望的域名</label>
+                            </div>
                         </div>
                     </div>
                     <div class="af-outer af-required pull-left">
